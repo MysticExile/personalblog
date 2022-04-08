@@ -1,0 +1,154 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #453185;
+    font-size: 18px;
+    margin: 0;
+}
+header {
+    background-image: url(https://i.kym-cdn.com/entries/icons/mobile/000/021/807/ig9OoyenpxqdCQyABmOQBZDI0duHk2QZZmWg2Hxd4ro.jpg);
+    color: rgb(232, 230, 227);
+    background-attachment: fixed;
+    text-align: center;
+    height: 200px;
+    padding-top: 4vh;
+    background-position: bottom;
+}
+
+header h1 {
+    color: white;
+    text-shadow:
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+    font-size: 50px;
+}
+header h2 {
+    color: white;
+    text-shadow:
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+    font-size: 30px;
+}
+nav {
+    background-color: #362862;
+    font-size: 27px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 12px;
+}
+
+nav div {
+    padding: 0;
+    background-color: #897BB8;
+    margin: 0;
+    justify-content: space-evenly;
+    border-radius: 12px;
+    color: #897BB8;
+}
+
+nav div button a {
+    color: white;
+}
+
+.button {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #897BB8;
+    justify-content: space-evenly;
+    border-radius: 12px;
+}
+
+.button:hover {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    justify-content: space-evenly;
+    border-radius: 12px;
+    background-color: #B5C5EB;
+}
+
+main {
+    margin: 4px;
+}
+
+section {
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+#Projects {
+    background-color: #eeeeee;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 400px;
+    max-width: 100%;
+}
+
+iframe {
+    max-width: 100%
+}
+
+footer {
+    background-color: #362862;
+    font-size: 27px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 0;
+    color: white;
+    text-shadow:
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+    alignment: left;
+}
+
+footer a {
+    font-size: 27px;
+    color: white;
+    text-shadow:
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+}
+
+footer a img{
+    border: 0 solid #ddd;
+    border-radius: 0;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+}
+
+@media only screen and (max-width: 650px) {
+
+}
