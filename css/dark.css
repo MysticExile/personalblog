@@ -186,5 +186,7 @@ footer p a svg{
 }
 
 @media only screen and (max-width: 650px) {
-
+    section {
+        max-width: 80%;
+    }
 }
