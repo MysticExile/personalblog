@@ -3,18 +3,37 @@ html {
 }
 
 body {
-    background-color: #453185;
+    background-image: url(https://wallpapercave.com/uwp/uwp1696607.gif);
     font-size: 18px;
     margin: 0;
+    background-size: 300%;
+    background-position: top;
+    /*background: linear-gradient(-45deg, #00bbff, #00ffd9, #ff00dd, #ff0088);
+    background-size: 300% 300%;
+    animation: gradient 10s ease infinite;*/
 }
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 header {
-    background-image: url(https://i.kym-cdn.com/entries/icons/mobile/000/021/807/ig9OoyenpxqdCQyABmOQBZDI0duHk2QZZmWg2Hxd4ro.jpg);
+    background-image: url(https://wallpaperaccess.com/full/755385.jpg);
     color: rgb(232, 230, 227);
-    background-attachment: fixed;
+    background-attachment: scroll;
     text-align: center;
     height: 200px;
     padding-top: 4vh;
-    background-position: bottom;
+    background-position: center;
+    background-size: cover;
 }
 
 header h1 {
@@ -36,21 +55,12 @@ header h2 {
     font-size: 30px;
 }
 nav {
-    background-color: #362862;
+    background-image: url(https://wallpaperaccess.com/full/755385.jpg);
     font-size: 27px;
     padding: 10px;
     display: flex;
     justify-content: space-evenly;
-    border-radius: 12px;
-}
-
-nav div {
-    padding: 0;
-    background-color: #897BB8;
-    margin: 0;
-    justify-content: space-evenly;
-    border-radius: 12px;
-    color: #897BB8;
+    border-radius: 0;
 }
 
 nav div button a {
@@ -59,20 +69,20 @@ nav div button a {
 
 .button {
     border: none;
-    padding: 15px 32px;
+    padding: 20px 32px;
     text-align: center;
     text-decoration: none;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    background-color: #897BB8;
+    background-color: darkcyan;
     justify-content: space-evenly;
     border-radius: 12px;
 }
 
 .button:hover {
     border: none;
-    padding: 15px 32px;
+    padding: 20px 32px;
     text-align: center;
     text-decoration: none;
     font-size: 16px;
@@ -80,11 +90,27 @@ nav div button a {
     cursor: pointer;
     justify-content: space-evenly;
     border-radius: 12px;
-    background-color: #B5C5EB;
+    background-color: magenta;
+}
+
+h1 {
+    font-size: 2em
+}
+
+h2 {
+    font-size: 1em;
 }
 
 main {
     margin: 4px;
+}
+
+#headshot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    padding: 0;
 }
 
 section {
@@ -92,15 +118,12 @@ section {
     border-radius: 12px;
     padding: 20px;
     margin: 20px auto;
-    max-width: 800px;
+    max-width: 70%;
+    alignment: center;
 }
 
 #Projects {
     background-color: #eeeeee;
-    border-radius: 12px;
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 800px;
 }
 
 img {
@@ -139,14 +162,25 @@ footer a {
             1px -1px 0 #000,
             -1px 1px 0 #000,
             1px 1px 0 #000;
+    text-decoration: none;
+    text-align: center;
+    position:relative; top:-5px;
 }
 
+/*
 footer a img{
     border: 0 solid #ddd;
     border-radius: 0;
     width: 32px;
     height: 32px;
     padding: 0;
+}
+*/
+
+footer p a svg{
+    max-width: 100%;
+    width: 32px;
+    position:relative; top:6px;
 }
 
 @media only screen and (max-width: 650px) {
