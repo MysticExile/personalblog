@@ -39,7 +39,7 @@ header h2 {
             1px 1px 0 #000;
     font-size: 30px;
 }
-#nav {
+nav {
     background-image: url(https://wallpaperaccess.com/full/755385.jpg);
     font-size: 27px;
     padding: 10px;
@@ -108,18 +108,18 @@ a {
 }
 
 section {
-    background-color: white;
+    background-color: #262626;
+    color: white;
     border-radius: 12px;
     padding: 20px;
     margin: 20px auto;
     width: auto;
     max-width: 50%;
-    alignment: center;
     text-align:center
 }
 
 #Projects {
-    background-color: #eeeeee;
+    background-color: #1e1e1e;
 }
 
 img {
