@@ -57,6 +57,31 @@ nav div button a {
     color: white;
     text-decoration: none;
 }
+.button-darkmode {
+    border: none;
+    padding: 16px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: darkcyan;
+    justify-content: space-evenly;
+    border-radius: 12px;
+}
+
+.button-darkmode:hover {
+    border: none;
+    padding: 16px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    justify-content: space-evenly;
+    border-radius: 12px;
+    background-color: magenta;
+}
 
 .button {
     color:white;
@@ -83,6 +108,10 @@ nav div button a {
     justify-content: space-evenly;
     border-radius: 12px;
     background-color: magenta;
+}
+
+#button-darkmode {
+    color: white;
 }
 
 h1 {
