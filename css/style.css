@@ -3,26 +3,11 @@ html {
 }
 
 body {
-    background-image: url(https://wallpapercave.com/uwp/uwp1696607.gif);
+    background-image: url(https://cdn.discordapp.com/attachments/380494360183177216/961841466399928351/pog.gif);
     font-size: 18px;
     margin: 0;
-    background-size: 300%;
-    background-position: top;
-    /*background: linear-gradient(-45deg, #00bbff, #00ffd9, #ff00dd, #ff0088);
-    background-size: 300% 300%;
-    animation: gradient 10s ease infinite;*/
-}
-
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+    background-size: cover;
+    background-position: 50% 50%;
 }
 
 header {
@@ -106,11 +91,14 @@ main {
 }
 
 #headshot {
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
-    width: 20%;
+    width: auto;
+    height: auto;
     padding: 0;
+    max-width: 30%;
+    max-height: 100%;
 }
 
 section {
