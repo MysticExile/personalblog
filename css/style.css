@@ -14,11 +14,12 @@ header {
     background-image: url(https://wallpaperaccess.com/full/755385.jpg);
     color: rgb(232, 230, 227);
     background-attachment: scroll;
-    text-align: center;
+    text-align: -webkit-center;
     height: 200px;
     padding-top: 4vh;
     background-position: center;
     background-size: cover;
+    margin: auto;
 }
 
 header h1 {
@@ -29,6 +30,7 @@ header h1 {
             -1px 1px 0 #000,
             1px 1px 0 #000;
     font-size: 50px;
+    position:relative; top:-30px;
 }
 header h2 {
     color: white;
@@ -38,6 +40,7 @@ header h2 {
             -1px 1px 0 #000,
             1px 1px 0 #000;
     font-size: 30px;
+    position:relative; top:-15px;
 }
 #nav {
     background-image: url(https://wallpaperaccess.com/full/755385.jpg);
@@ -46,10 +49,13 @@ header h2 {
     display: flex;
     justify-content: space-evenly;
     border-radius: 0;
+    background-position: 50% 10%;
+    background-size: auto;
 }
 
 nav div button a {
     color: white;
+    text-decoration: none;
 }
 
 .button {
@@ -113,7 +119,7 @@ section {
     padding: 20px;
     margin: 20px auto;
     width: auto;
-    max-width: 80%;
+    max-width: 50%;
     alignment: center;
     text-align:center
 }
@@ -180,5 +186,7 @@ footer p a svg{
 }
 
 @media only screen and (max-width: 650px) {
-
+    section {
+        max-width: 80%;
+    }
 }
