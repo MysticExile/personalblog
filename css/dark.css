@@ -39,7 +39,7 @@ header h2 {
             1px 1px 0 #000;
     font-size: 30px;
 }
-nav {
+#nav {
     background-image: url(https://wallpaperaccess.com/full/755385.jpg);
     font-size: 27px;
     padding: 10px;
@@ -50,6 +50,7 @@ nav {
 
 nav div button a {
     color: white;
+    text-decoration: none;
 }
 
 .button {
