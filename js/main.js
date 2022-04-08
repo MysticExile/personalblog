@@ -12,7 +12,7 @@ function darkmodeClickHandler(e) {
     let clickedItem = e.target;
     console.log(clickedItem);
     //Check if we clicked on a button
-    if (clickedItem.nodeName !== 'BUTTON' && (clickedItem.getAttribute("id") !== "dark" || clickedItem.getAttribute("class") !== "icon")) {
+    if (clickedItem.nodeName !== 'BUTTON' && clickedItem.getAttribute("id") !== "dark") {
         return;
     }
     clickedItem.innerHTML = '';
